@@ -1,0 +1,71 @@
+node-consolidate (0.16.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Remove test dependency to deprecated node-jade
+
+ -- Yadd <yadd@debian.org>  Fri, 08 Oct 2021 10:34:14 +0200
+
+node-consolidate (0.16.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * New upstream version 0.16.0
+  * Use babel7 instead of old babel6 (Closes: #978051)
+  * Embed liquid-node, squirrelly, strftime and inyliquid for test only
+  * Enable part of upstream test using mocha
+  * Add test dependencies
+  * Add lintian overrides
+
+ -- Yadd <yadd@debian.org>  Wed, 06 Oct 2021 13:48:25 +0200
+
+node-consolidate (0.15.1+repack-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 19 Sep 2021 14:09:31 +0100
+
+node-consolidate (0.15.1+repack-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 23:34:15 +0100
+
+node-consolidate (0.15.1+repack-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix debian/watch
+  * Repack due to missing test directory
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Switch install and test to pkg-js-tools
+  * Install examples
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 04 Aug 2019 23:54:35 +0200
+
+node-consolidate (0.15.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 0.15.1
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Bump debhelper compatibility level to 11
+  * Disable patches as it were no longer applicable
+  * Update d/copyright
+  * Update URL in the Vcs-* field
+  * Add minimal test
+  * Add d/upstream/metadata
+  * Update d/watch
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Tue, 22 Jan 2019 20:19:50 +0530
+
+node-consolidate (0.14.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #879201)
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 20 Oct 2017 17:16:41 +0530

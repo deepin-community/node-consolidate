@@ -1,0 +1,38 @@
+Source: node-consolidate
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends:
+ debhelper-compat (= 13)
+ , chai
+ , handlebars
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-babel7 <!nocheck>
+ , node-bluebird <!nocheck>
+ , node-dot <!nocheck>
+ , node-ejs <!nocheck>
+ , node-lodash <!nocheck>
+ , node-mustache <!nocheck>
+ , node-react <!nocheck>
+ , node-should <!nocheck>
+ , node-underscore <!nocheck>
+Standards-Version: 4.6.0
+Homepage: https://github.com/visionmedia/consolidate.js
+Vcs-Git: https://salsa.debian.org/js-team/node-consolidate.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-consolidate
+Rules-Requires-Root: no
+
+Package: node-consolidate
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , node-babel7
+ , node-bluebird
+Description: Template engine consolidation library
+ This module supports a large number of template engines like ejs, haml,
+ handlebars, pug etc
+ .
+ Node.js is an event-based server-side JavaScript engine.
