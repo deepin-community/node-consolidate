@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: consolidate
 Upstream-Contact: https://github.com/visionmedia/consolidate.js/issues
 Source: https://github.com/visionmedia/consolidate.js
+ https://registry.npmjs.org/@types/consolidate
 
 Files: *
 Copyright: 2011-2016, TJ Holowaychuk <tj@vision-media.ca>
@@ -31,6 +32,10 @@ License: Expat
 Files: debian/tests/test_modules/tinyliquid/lib/md5.js
 Copyright: 1999-2009 Paul Johnston
 License: BSD-2-Clause
+
+Files: types-*/*
+Copyright: Microsoft Corporation
+License: Expat
 
 License: BSD-2-Clause
  Redistribution and use in source and binary forms, with or without

@@ -1,7 +1,9 @@
 # Test files
-source-is-missing debian/tests/test_modules/liquid-node/lib/liquid/*
-source-is-missing debian/tests/test_modules/tinyliquid/lib/md5.js line 3 is 4938 characters long (>512)
-source-is-missing debian/tests/test_modules/tinyliquid/target/tinyliquid.js line 2774 is 4938 characters long (>512)
-source-contains-prebuilt-javascript-object debian/tests/test_modules/liquid-node/*
-source-contains-prebuilt-javascript-object debian/tests/test_modules/tinyliquid/*
-very-long-line-length-in-source-file debian/tests/test_modules/tinyliquid/*
+source-is-missing *debian/tests/test_modules/liquid-node/lib/liquid/*
+source-is-missing *debian/tests/test_modules/tinyliquid/lib/md5.js*
+source-is-missing *debian/tests/test_modules/tinyliquid/target/tinyliquid.js*
+source-contains-prebuilt-javascript-object *debian/tests/test_modules/liquid-node/*
+source-contains-prebuilt-javascript-object *debian/tests/test_modules/tinyliquid/*
+very-long-line-length-in-source-file *debian/tests/test_modules/tinyliquid/*
+# Generic types-* path
+add-component-copyright types-*
