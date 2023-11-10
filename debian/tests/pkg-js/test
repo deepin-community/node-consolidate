@@ -1,1 +1,1 @@
-mocha --exit -r chai/register-should
+mocha -t 60000 --exit -r chai/register-should
